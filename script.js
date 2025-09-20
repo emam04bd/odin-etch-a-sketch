@@ -11,8 +11,12 @@ function createGrid() {
 			const cellEl = document.createElement("div");
 			cellEl.classList.add("cell");
 			rowContainerEl.appendChild(cellEl);
+			cellEl.style.backgroundColor = "#000000";
+			cellEl.style.opacity = "0.0";
+			let opacity = 0;
 			cellEl.addEventListener("mouseover", () => {
-				cellEl.style.backgroundColor = "#000";
+				opacity += 0.1;
+				cellEl.style.opacity = String(opacity);
 			});
 		}
 	}
