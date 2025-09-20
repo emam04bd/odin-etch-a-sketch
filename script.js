@@ -8,5 +8,8 @@ for(let i = 0; i < 16; i++) {
         const cellEl = document.createElement("div");
         cellEl.classList.add("cell");
         rowContainerEl.appendChild(cellEl);
+        cellEl.addEventListener("mouseover", () => {
+            cellEl.style.backgroundColor = "#000";
+        })
     }
 }
