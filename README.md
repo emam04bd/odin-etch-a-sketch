@@ -4,6 +4,8 @@
 
 This is a practice project for DOM manipulation from [Tho Odin Project](https://www.theodinproject.com). [More about the project...](https://en.wikipedia.org/wiki/Etch_A_Sketch)
 
+[Live demo](https://emam04bd.github.io/odin-etch-a-sketch/)
+
 ## Built with
 
 - HTML
