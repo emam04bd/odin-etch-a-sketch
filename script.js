@@ -11,7 +11,8 @@ function createGrid() {
 			const cellEl = document.createElement("div");
 			cellEl.classList.add("cell");
 			rowContainerEl.appendChild(cellEl);
-			cellEl.style.backgroundColor = "#000000";
+			cellEl.style.backgroundColor =
+				"#" + Math.floor(Math.random() * 4294967295).toString(16);
 			cellEl.style.opacity = "0.0";
 			let opacity = 0;
 			cellEl.addEventListener("mouseover", () => {
